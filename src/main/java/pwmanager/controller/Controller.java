@@ -1,7 +1,10 @@
 package pwmanager.controller;
 
+import java.util.List;
 import java.util.Optional;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,17 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
 import lombok.extern.log4j.Log4j2;
+import pwmanager.Application;
 import pwmanager.model.User;
 import pwmanager.model.Website;
 import pwmanager.repository.UserRepository;
 import pwmanager.repository.WebsiteRepository;
 
 @RestController
-@Log4j2
 public class Controller {
-	
-	@Autowired
-	ObjectWriter ow;
 	
 	@Autowired
 	WebsiteRepository websiteRepository;
@@ -35,8 +35,7 @@ public class Controller {
 
 	@GetMapping(path = "/user/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public Object getUser(@PathVariable("id") Integer id) {
-		Optional<User> user = userRepository.findById(id);
-		log.info(user.toString());
+		User user = userRepository.getOne(id);
 		return user; 
 	
 	}
@@ -65,10 +64,14 @@ public class Controller {
 	}
 
 	@GetMapping(path = "/website/{id}", produces = MediaType.APPLICATION_PROBLEM_JSON_VALUE)
-	public Optional<Website> getWebsites(@PathVariable("id") int id) {
-		Optional<Website> website = websiteRepository.findById(id);
+	public List<Website> getWebsites(@PathVariable("id") int id) {
+		User user = userRepository.getOne(id);
+		List<Website> website = user.getWebsites();
 		return website;
 	}
+	
+
+	
 
 	@PostMapping(path = "/website", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String posWebsites(@RequestBody Website website) {
