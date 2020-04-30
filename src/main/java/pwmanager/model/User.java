@@ -27,14 +27,20 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+	
 	private String userName;
+	
 	private String password;
+	
 	private boolean active;
+	
 	private String roles;
+	
 	
 	@OneToMany
 	@JoinColumn(name = "userId")
 	private List<Website> websites = new ArrayList<>();
+	
 	
 	public int getId() {
 		return id;

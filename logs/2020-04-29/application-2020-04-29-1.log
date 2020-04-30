@@ -1,0 +1,28 @@
+[INFO ] 2020-04-29 21:27:08.092 Application:55 - Starting Application on zyles with PID 18594 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-29 21:27:08.093 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-29 21:27:08.287 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-29 21:27:08.300 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 12ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-29 21:27:08.446 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-29 21:27:08.447 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-29 21:27:08.448 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-29 21:27:08.448 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-29 21:27:08.460 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-29 21:27:08.460 ContextLoader:284 - Root WebApplicationContext: initialization completed in 363 ms
+[INFO ] 2020-04-29 21:27:08.502 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-29 21:27:08.509 HikariDataSource:110 - HikariPool-4 - Starting...
+[INFO ] 2020-04-29 21:27:08.529 HikariDataSource:123 - HikariPool-4 - Start completed.
+[INFO ] 2020-04-29 21:27:08.530 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-29 21:27:08.623 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-29 21:27:08.623 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-29 21:27:08.628 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-29 21:27:08.650 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-29 21:27:08.761 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51cf909f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ea32d9c, org.springframework.security.web.header.HeaderWriterFilter@4594cc67, org.springframework.security.web.csrf.CsrfFilter@4dca2d56, org.springframework.security.web.authentication.logout.LogoutFilter@32589cd4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4958176f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f54473d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@52f00be1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76259976, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15318421, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63be528b, org.springframework.security.web.session.SessionManagementFilter@721f0e14, org.springframework.security.web.access.ExceptionTranslationFilter@2b667f09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a9b6c98]
+[INFO ] 2020-04-29 21:27:08.817 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-29 21:27:08.877 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-29 21:27:08.884 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-29 21:27:08.885 Application:61 - Started Application in 0.825 seconds (JVM running for 375.324)
+[INFO ] 2020-04-29 21:27:08.887 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-29 21:27:44.897 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-29 21:27:44.898 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-29 21:27:44.899 HikariDataSource:350 - HikariPool-4 - Shutdown initiated...
+[INFO ] 2020-04-29 21:27:44.933 HikariDataSource:352 - HikariPool-4 - Shutdown completed.
