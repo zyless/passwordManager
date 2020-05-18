@@ -1,0 +1,1188 @@
+[INFO ] 2020-04-30 11:24:51.897 Application:55 - Starting Application on zyles with PID 8207 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:24:51.914 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:24:51.977 ChangeableUrls:225 - The Class-Path manifest attribute in /home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[INFO ] 2020-04-30 11:24:51.981 DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-30 11:24:51.982 DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-30 11:24:52.832 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:24:52.911 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 67ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:24:53.834 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:24:53.848 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:24:53.849 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:24:53.850 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:24:53.944 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:24:53.945 ContextLoader:284 - Root WebApplicationContext: initialization completed in 1962 ms
+[INFO ] 2020-04-30 11:24:54.270 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:24:54.406 Version:44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+[INFO ] 2020-04-30 11:24:54.592 Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-04-30 11:24:54.741 HikariDataSource:110 - HikariPool-1 - Starting...
+[INFO ] 2020-04-30 11:24:55.098 HikariDataSource:123 - HikariPool-1 - Start completed.
+[INFO ] 2020-04-30 11:24:55.116 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:24:55.987 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:24:55.995 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:24:56.014 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:24:56.069 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:24:56.130 UserDetailsServiceAutoConfiguration:86 - 
+
+Using generated security password: 0830ff83-e050-4b1e-a109-f006a4ae5969
+
+[INFO ] 2020-04-30 11:24:56.815 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2083846f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f5f2edd, org.springframework.security.web.header.HeaderWriterFilter@7a3ab1e3, org.springframework.security.web.csrf.CsrfFilter@39842d93, org.springframework.security.web.authentication.logout.LogoutFilter@2c295290, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@331a8e28, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@402fd28, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@733e2c14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@345fffc2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1876ba8e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f51fc95, org.springframework.security.web.session.SessionManagementFilter@7484c2cf, org.springframework.security.web.access.ExceptionTranslationFilter@6cfd638, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@416daf5]
+[INFO ] 2020-04-30 11:24:57.006 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:24:57.297 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:24:57.321 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:24:57.324 Application:61 - Started Application in 5.779 seconds (JVM running for 6.769)
+[INFO ] 2020-04-30 11:25:03.577 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:25:03.577 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:25:03.586 DispatcherServlet:547 - Completed initialization in 8 ms
+[WARN ] 2020-04-30 11:30:40.978 ExceptionHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: pwmanager.model.User$HibernateProxy$GpL6WaQC["hibernateLazyInitializer"])]
+[INFO ] 2020-04-30 11:31:47.929 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:31:47.931 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:31:47.935 HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-04-30 11:31:47.963 HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-04-30 11:31:53.601 Application:55 - Starting Application on zyles with PID 8797 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:31:53.613 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:31:53.668 ChangeableUrls:225 - The Class-Path manifest attribute in /home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[INFO ] 2020-04-30 11:31:53.670 DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-30 11:31:53.670 DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-30 11:31:54.503 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:31:54.574 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 62ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:31:55.434 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:31:55.448 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:31:55.449 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:31:55.450 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:31:55.555 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:31:55.555 ContextLoader:284 - Root WebApplicationContext: initialization completed in 1884 ms
+[INFO ] 2020-04-30 11:31:55.870 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:31:55.946 Version:44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+[INFO ] 2020-04-30 11:31:56.091 Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-04-30 11:31:56.207 HikariDataSource:110 - HikariPool-1 - Starting...
+[INFO ] 2020-04-30 11:31:56.558 HikariDataSource:123 - HikariPool-1 - Start completed.
+[INFO ] 2020-04-30 11:31:56.578 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:31:57.372 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:31:57.378 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:31:57.396 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:31:57.445 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:31:57.518 UserDetailsServiceAutoConfiguration:86 - 
+
+Using generated security password: 9b43f31f-37ed-41c6-a6cd-621599fc7cdf
+
+[INFO ] 2020-04-30 11:31:58.332 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39b90046, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c04a37e, org.springframework.security.web.header.HeaderWriterFilter@794654c9, org.springframework.security.web.csrf.CsrfFilter@54472e06, org.springframework.security.web.authentication.logout.LogoutFilter@335610d3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@653d0a86, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b03bb1f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b75426e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e1d2f03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46d48b26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16e3600c, org.springframework.security.web.session.SessionManagementFilter@2268493d, org.springframework.security.web.access.ExceptionTranslationFilter@333656b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f223dcc]
+[INFO ] 2020-04-30 11:31:58.515 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:31:58.773 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:31:58.796 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:31:58.798 Application:61 - Started Application in 5.522 seconds (JVM running for 6.365)
+[INFO ] 2020-04-30 11:32:09.375 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:32:09.376 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:32:09.387 DispatcherServlet:547 - Completed initialization in 11 ms
+[INFO ] 2020-04-30 11:34:50.343 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:34:50.346 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:34:50.351 HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-04-30 11:34:50.386 HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-04-30 11:34:50.520 Application:55 - Starting Application on zyles with PID 8797 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:34:50.521 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:34:50.791 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:34:50.806 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 14ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:34:51.041 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:34:51.042 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:34:51.043 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:34:51.044 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:34:51.062 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:34:51.063 ContextLoader:284 - Root WebApplicationContext: initialization completed in 537 ms
+[INFO ] 2020-04-30 11:34:51.146 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:34:51.154 HikariDataSource:110 - HikariPool-2 - Starting...
+[INFO ] 2020-04-30 11:34:51.183 HikariDataSource:123 - HikariPool-2 - Start completed.
+[INFO ] 2020-04-30 11:34:51.183 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:34:51.293 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:34:51.293 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:34:51.300 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:34:51.331 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:34:51.519 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d2fbba2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b7a5d6f, org.springframework.security.web.header.HeaderWriterFilter@207aa56f, org.springframework.security.web.csrf.CsrfFilter@566cecd7, org.springframework.security.web.authentication.logout.LogoutFilter@696dca83, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4eb8610, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@160c9aa1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1b3b491, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61feee31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@145a7ebc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d39db3f, org.springframework.security.web.session.SessionManagementFilter@a4112a4, org.springframework.security.web.access.ExceptionTranslationFilter@3bcc224b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5db31a1]
+[INFO ] 2020-04-30 11:34:51.592 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:34:51.687 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:34:51.698 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:34:51.700 Application:61 - Started Application in 1.219 seconds (JVM running for 179.267)
+[INFO ] 2020-04-30 11:34:51.708 ConditionEvaluationDeltaLoggingListener:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' myUserDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[INFO ] 2020-04-30 11:35:12.104 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:35:12.106 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:35:12.108 HikariDataSource:350 - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-04-30 11:35:12.139 HikariDataSource:352 - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-04-30 11:35:12.257 Application:55 - Starting Application on zyles with PID 8797 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:35:12.258 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:35:12.481 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:35:12.496 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 13ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:35:12.743 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:35:12.744 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:35:12.745 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:35:12.746 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:35:12.765 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:35:12.765 ContextLoader:284 - Root WebApplicationContext: initialization completed in 502 ms
+[INFO ] 2020-04-30 11:35:12.824 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:35:12.829 HikariDataSource:110 - HikariPool-3 - Starting...
+[INFO ] 2020-04-30 11:35:12.851 HikariDataSource:123 - HikariPool-3 - Start completed.
+[INFO ] 2020-04-30 11:35:12.852 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:35:12.960 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:35:12.961 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:35:12.971 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:35:12.999 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:35:13.183 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c3b920, org.springframework.security.web.context.SecurityContextPersistenceFilter@51868056, org.springframework.security.web.header.HeaderWriterFilter@21dda70, org.springframework.security.web.csrf.CsrfFilter@894c6f5, org.springframework.security.web.authentication.logout.LogoutFilter@7a3ffc8e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1359a4e0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3bb77d47, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19a8874c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72aacce7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e884698, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@549c9020, org.springframework.security.web.session.SessionManagementFilter@7f0b422c, org.springframework.security.web.access.ExceptionTranslationFilter@fc58948, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b10cd34]
+[INFO ] 2020-04-30 11:35:13.253 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:35:13.329 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:35:13.337 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:35:13.338 Application:61 - Started Application in 1.126 seconds (JVM running for 200.905)
+[INFO ] 2020-04-30 11:35:13.341 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 11:35:20.258 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:35:20.258 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:35:20.265 DispatcherServlet:547 - Completed initialization in 6 ms
+[ERROR] 2020-04-30 11:35:33.487 UsernamePasswordAuthenticationFilter:221 - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:95) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at java.lang.String.valueOf(String.java:2951) ~[?:?]
+	at java.lang.StringBuilder.append(StringBuilder.java:168) ~[?:?]
+	at pwmanager.model.User.toString(User.java:22) ~[classes/:?]
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:3031) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2908) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2673) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2609) ~[?:?]
+	at java.lang.String.format(String.java:2897) ~[?:?]
+	at java.util.Optional.toString(Optional.java:466) ~[?:?]
+	at pwmanager.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:23) ~[classes/:?]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 54 more
+[ERROR] 2020-04-30 11:35:47.401 UsernamePasswordAuthenticationFilter:221 - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:95) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at java.lang.String.valueOf(String.java:2951) ~[?:?]
+	at java.lang.StringBuilder.append(StringBuilder.java:168) ~[?:?]
+	at pwmanager.model.User.toString(User.java:22) ~[classes/:?]
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:3031) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2908) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2673) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2609) ~[?:?]
+	at java.lang.String.format(String.java:2897) ~[?:?]
+	at java.util.Optional.toString(Optional.java:466) ~[?:?]
+	at pwmanager.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:23) ~[classes/:?]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 54 more
+[INFO ] 2020-04-30 11:35:52.988 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:35:52.990 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:35:52.992 HikariDataSource:350 - HikariPool-3 - Shutdown initiated...
+[INFO ] 2020-04-30 11:35:53.011 HikariDataSource:352 - HikariPool-3 - Shutdown completed.
+[INFO ] 2020-04-30 11:36:01.127 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:36:01.140 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:36:01.195 ChangeableUrls:225 - The Class-Path manifest attribute in /home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/zyles/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[INFO ] 2020-04-30 11:36:01.198 DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-30 11:36:01.198 DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-30 11:36:01.999 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:36:02.091 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 80ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:36:02.993 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:36:03.006 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:36:03.008 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:36:03.009 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:36:03.108 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:36:03.108 ContextLoader:284 - Root WebApplicationContext: initialization completed in 1909 ms
+[INFO ] 2020-04-30 11:36:03.427 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:36:03.499 Version:44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+[INFO ] 2020-04-30 11:36:03.639 Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-04-30 11:36:03.758 HikariDataSource:110 - HikariPool-1 - Starting...
+[INFO ] 2020-04-30 11:36:04.130 HikariDataSource:123 - HikariPool-1 - Start completed.
+[INFO ] 2020-04-30 11:36:04.150 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:36:04.948 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:36:04.954 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:36:04.975 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:36:05.024 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:36:05.792 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@635a0cb8, org.springframework.security.web.context.SecurityContextPersistenceFilter@109e872b, org.springframework.security.web.header.HeaderWriterFilter@570384f7, org.springframework.security.web.csrf.CsrfFilter@f0b2707, org.springframework.security.web.authentication.logout.LogoutFilter@25e27de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16ba655, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e4507ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d8b86b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3038fa9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b75f089, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25cb8dfb, org.springframework.security.web.session.SessionManagementFilter@218e754c, org.springframework.security.web.access.ExceptionTranslationFilter@74148d5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cfd48fe]
+[INFO ] 2020-04-30 11:36:05.970 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:36:06.236 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:36:06.263 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:36:06.268 Application:61 - Started Application in 5.491 seconds (JVM running for 6.405)
+[INFO ] 2020-04-30 11:36:18.970 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:36:18.971 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:36:18.986 DispatcherServlet:547 - Completed initialization in 14 ms
+[ERROR] 2020-04-30 11:36:19.306 UsernamePasswordAuthenticationFilter:221 - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:95) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at java.lang.String.valueOf(String.java:2951) ~[?:?]
+	at java.lang.StringBuilder.append(StringBuilder.java:168) ~[?:?]
+	at pwmanager.model.User.toString(User.java:22) ~[classes/:?]
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:3031) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2908) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2673) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2609) ~[?:?]
+	at java.lang.String.format(String.java:2897) ~[?:?]
+	at java.util.Optional.toString(Optional.java:466) ~[?:?]
+	at pwmanager.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:23) ~[classes/:?]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 54 more
+[ERROR] 2020-04-30 11:36:27.577 UsernamePasswordAuthenticationFilter:221 - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:95) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at java.lang.String.valueOf(String.java:2951) ~[?:?]
+	at java.lang.StringBuilder.append(StringBuilder.java:168) ~[?:?]
+	at pwmanager.model.User.toString(User.java:22) ~[classes/:?]
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:3031) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2908) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2673) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2609) ~[?:?]
+	at java.lang.String.format(String.java:2897) ~[?:?]
+	at java.util.Optional.toString(Optional.java:466) ~[?:?]
+	at pwmanager.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:23) ~[classes/:?]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 54 more
+[INFO ] 2020-04-30 11:38:11.767 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:38:11.770 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:38:11.774 HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-04-30 11:38:11.798 HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-04-30 11:38:11.931 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:38:11.933 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:38:12.220 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:38:12.237 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 16ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:38:12.436 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:38:12.438 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:38:12.439 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:38:12.439 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:38:12.451 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:38:12.452 ContextLoader:284 - Root WebApplicationContext: initialization completed in 514 ms
+[INFO ] 2020-04-30 11:38:12.517 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:38:12.522 HikariDataSource:110 - HikariPool-2 - Starting...
+[INFO ] 2020-04-30 11:38:12.546 HikariDataSource:123 - HikariPool-2 - Start completed.
+[INFO ] 2020-04-30 11:38:12.547 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:38:12.665 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:38:12.665 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:38:12.675 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:38:12.703 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:38:12.884 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46fb9b18, org.springframework.security.web.context.SecurityContextPersistenceFilter@3399c0be, org.springframework.security.web.header.HeaderWriterFilter@3772a7eb, org.springframework.security.web.csrf.CsrfFilter@f39d018, org.springframework.security.web.authentication.logout.LogoutFilter@57db9a94, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59711f27, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8e6f597, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5759a71e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@532e3a03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71419272, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c22ac85, org.springframework.security.web.session.SessionManagementFilter@72e177ea, org.springframework.security.web.access.ExceptionTranslationFilter@44c8365, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@518d49b1]
+[INFO ] 2020-04-30 11:38:12.965 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:38:13.054 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:38:13.075 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:38:13.077 Application:61 - Started Application in 1.191 seconds (JVM running for 133.214)
+[INFO ] 2020-04-30 11:38:13.082 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 11:38:39.476 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:38:39.479 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:38:39.481 HikariDataSource:350 - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-04-30 11:38:39.510 HikariDataSource:352 - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-04-30 11:38:39.635 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:38:39.637 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:38:39.859 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:38:39.874 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 14ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:38:40.040 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:38:40.041 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:38:40.042 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:38:40.043 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:38:40.061 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:38:40.061 ContextLoader:284 - Root WebApplicationContext: initialization completed in 420 ms
+[INFO ] 2020-04-30 11:38:40.120 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:38:40.126 HikariDataSource:110 - HikariPool-3 - Starting...
+[INFO ] 2020-04-30 11:38:40.147 HikariDataSource:123 - HikariPool-3 - Start completed.
+[INFO ] 2020-04-30 11:38:40.148 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:38:40.244 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:38:40.244 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:38:40.251 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:38:40.272 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:38:40.414 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6865c236, org.springframework.security.web.context.SecurityContextPersistenceFilter@287e725c, org.springframework.security.web.header.HeaderWriterFilter@110fbfd4, org.springframework.security.web.csrf.CsrfFilter@63234b83, org.springframework.security.web.authentication.logout.LogoutFilter@7b5ed293, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e08db2d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c48966a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@226b42c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@431bf4cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f061265, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59118ea7, org.springframework.security.web.session.SessionManagementFilter@517854a3, org.springframework.security.web.access.ExceptionTranslationFilter@5ba61513, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@98e51f1]
+[INFO ] 2020-04-30 11:38:40.473 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:38:40.546 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:38:40.554 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:38:40.556 Application:61 - Started Application in 0.959 seconds (JVM running for 160.693)
+[INFO ] 2020-04-30 11:38:40.559 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 11:39:03.740 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:39:03.741 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:39:03.747 DispatcherServlet:547 - Completed initialization in 6 ms
+[ERROR] 2020-04-30 11:39:06.980 UsernamePasswordAuthenticationFilter:221 - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:95) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: pwmanager.model.User.websites, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621) ~[hibernate-core-5.4.12.Final.jar:5.4.12.Final]
+	at java.lang.String.valueOf(String.java:2951) ~[?:?]
+	at java.lang.StringBuilder.append(StringBuilder.java:168) ~[?:?]
+	at pwmanager.model.User.toString(User.java:22) ~[classes/:?]
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:3031) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2908) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2673) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2609) ~[?:?]
+	at java.lang.String.format(String.java:2897) ~[?:?]
+	at java.util.Optional.toString(Optional.java:466) ~[?:?]
+	at pwmanager.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:23) ~[classes/:?]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 54 more
+[INFO ] 2020-04-30 11:40:38.060 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:40:38.062 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:40:38.064 HikariDataSource:350 - HikariPool-3 - Shutdown initiated...
+[INFO ] 2020-04-30 11:40:38.086 HikariDataSource:352 - HikariPool-3 - Shutdown completed.
+[INFO ] 2020-04-30 11:40:38.204 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:40:38.205 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:40:38.407 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:40:38.419 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 11ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:40:38.564 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:40:38.565 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:40:38.566 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:40:38.567 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:40:38.580 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:40:38.580 ContextLoader:284 - Root WebApplicationContext: initialization completed in 372 ms
+[INFO ] 2020-04-30 11:40:38.639 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:40:38.644 HikariDataSource:110 - HikariPool-4 - Starting...
+[INFO ] 2020-04-30 11:40:38.665 HikariDataSource:123 - HikariPool-4 - Start completed.
+[INFO ] 2020-04-30 11:40:38.666 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:40:38.749 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:40:38.749 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:40:38.756 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:40:38.779 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:40:38.938 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47d2e9c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@7328c538, org.springframework.security.web.header.HeaderWriterFilter@5ec9b398, org.springframework.security.web.csrf.CsrfFilter@2dd3127f, org.springframework.security.web.authentication.logout.LogoutFilter@5457abb0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41e663e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56f44d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38cbda49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e5bf1ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d9dd0cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37cffa98, org.springframework.security.web.session.SessionManagementFilter@465d6766, org.springframework.security.web.access.ExceptionTranslationFilter@109bb4b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bec9cf4]
+[INFO ] 2020-04-30 11:40:38.997 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:40:39.069 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:40:39.077 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:40:39.079 Application:61 - Started Application in 0.905 seconds (JVM running for 279.215)
+[INFO ] 2020-04-30 11:40:39.081 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 11:40:46.749 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:40:46.750 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 11:40:46.755 DispatcherServlet:547 - Completed initialization in 5 ms
+[INFO ] 2020-04-30 11:40:46.864 MyUserDetails:29 - User(id=2, userName=patrik, password=$2y$12$0YqUnxiGfpwoChmqt1NcZOA2MgSt6ylHrTkp0fPQ7rLBVOloH73x2, active=true, roles=USER, websites=[Website(id=1, websiteName=facebook, url=www.facebook.com, username=null, password=123, userId=2)])
+[WARN ] 2020-04-30 11:40:57.280 ExceptionHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: pwmanager.model.User$HibernateProxy$greFizV5["hibernateLazyInitializer"])]
+[INFO ] 2020-04-30 11:52:59.172 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:52:59.173 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:52:59.175 HikariDataSource:350 - HikariPool-4 - Shutdown initiated...
+[INFO ] 2020-04-30 11:52:59.192 HikariDataSource:352 - HikariPool-4 - Shutdown completed.
+[INFO ] 2020-04-30 11:52:59.314 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:52:59.316 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:52:59.535 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:52:59.548 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 12ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:52:59.691 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:52:59.692 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:52:59.692 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:52:59.693 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:52:59.705 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:52:59.705 ContextLoader:284 - Root WebApplicationContext: initialization completed in 385 ms
+[INFO ] 2020-04-30 11:52:59.759 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:52:59.766 HikariDataSource:110 - HikariPool-5 - Starting...
+[INFO ] 2020-04-30 11:52:59.786 HikariDataSource:123 - HikariPool-5 - Start completed.
+[INFO ] 2020-04-30 11:52:59.787 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:52:59.884 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:52:59.884 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:52:59.892 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:52:59.916 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:53:00.057 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19471ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@575b107, org.springframework.security.web.header.HeaderWriterFilter@2da04c65, org.springframework.security.web.csrf.CsrfFilter@efb78ea, org.springframework.security.web.authentication.logout.LogoutFilter@5abc965a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68c3cddc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3d76cc1a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7176fb34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@274d03af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8a1a047, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d843015, org.springframework.security.web.session.SessionManagementFilter@501cbfc6, org.springframework.security.web.access.ExceptionTranslationFilter@7cdbc83e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6265db74]
+[INFO ] 2020-04-30 11:53:00.117 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:53:00.201 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:53:00.218 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:53:00.219 Application:61 - Started Application in 0.942 seconds (JVM running for 1020.356)
+[INFO ] 2020-04-30 11:53:00.221 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 11:53:10.607 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:53:10.608 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:53:10.610 HikariDataSource:350 - HikariPool-5 - Shutdown initiated...
+[INFO ] 2020-04-30 11:53:10.639 HikariDataSource:352 - HikariPool-5 - Shutdown completed.
+[INFO ] 2020-04-30 11:53:10.746 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 11:53:10.748 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 11:53:10.920 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 11:53:10.929 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 11:53:11.068 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 11:53:11.069 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:53:11.070 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 11:53:11.071 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 11:53:11.082 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 11:53:11.083 ContextLoader:284 - Root WebApplicationContext: initialization completed in 332 ms
+[INFO ] 2020-04-30 11:53:11.138 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 11:53:11.144 HikariDataSource:110 - HikariPool-6 - Starting...
+[INFO ] 2020-04-30 11:53:11.166 HikariDataSource:123 - HikariPool-6 - Start completed.
+[INFO ] 2020-04-30 11:53:11.167 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 11:53:11.247 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 11:53:11.248 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 11:53:11.255 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 11:53:11.279 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 11:53:11.414 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26eba87, org.springframework.security.web.context.SecurityContextPersistenceFilter@66a33847, org.springframework.security.web.header.HeaderWriterFilter@5f185392, org.springframework.security.web.csrf.CsrfFilter@465fae8f, org.springframework.security.web.authentication.logout.LogoutFilter@538866ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9c0f8a2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34024e17, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@60301400, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a1e4243, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77871851, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7af31214, org.springframework.security.web.session.SessionManagementFilter@5d33ceb8, org.springframework.security.web.access.ExceptionTranslationFilter@43c9ef07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@835b41]
+[INFO ] 2020-04-30 11:53:11.470 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 11:53:11.540 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 11:53:11.550 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 11:53:11.552 Application:61 - Started Application in 0.832 seconds (JVM running for 1031.688)
+[INFO ] 2020-04-30 11:53:11.554 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:01:24.416 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:01:24.417 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:01:24.419 HikariDataSource:350 - HikariPool-6 - Shutdown initiated...
+[INFO ] 2020-04-30 12:01:24.436 HikariDataSource:352 - HikariPool-6 - Shutdown completed.
+[INFO ] 2020-04-30 12:01:24.546 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:01:24.547 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:01:24.726 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:01:24.739 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 11ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:01:24.861 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:01:24.862 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:01:24.863 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:01:24.863 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:01:24.873 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:01:24.874 ContextLoader:284 - Root WebApplicationContext: initialization completed in 323 ms
+[INFO ] 2020-04-30 12:01:24.925 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:01:24.929 HikariDataSource:110 - HikariPool-7 - Starting...
+[INFO ] 2020-04-30 12:01:24.943 HikariDataSource:123 - HikariPool-7 - Start completed.
+[INFO ] 2020-04-30 12:01:24.944 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:01:25.028 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:01:25.029 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:01:25.036 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:01:25.062 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:01:25.194 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60bca84f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ccc294d, org.springframework.security.web.header.HeaderWriterFilter@54beaafb, org.springframework.security.web.csrf.CsrfFilter@216ae5e5, org.springframework.security.web.authentication.logout.LogoutFilter@2153bb9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d08c2a4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2e2cd28b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@77f8bb77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@786d4371, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5925d7f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@421ea442, org.springframework.security.web.session.SessionManagementFilter@affb03a, org.springframework.security.web.access.ExceptionTranslationFilter@13e2f8f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29c38208]
+[INFO ] 2020-04-30 12:01:25.247 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:01:25.307 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:01:25.314 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:01:25.316 Application:61 - Started Application in 0.8 seconds (JVM running for 1525.453)
+[INFO ] 2020-04-30 12:01:25.317 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:01:41.722 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:01:41.722 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:01:41.723 HikariDataSource:350 - HikariPool-7 - Shutdown initiated...
+[INFO ] 2020-04-30 12:01:41.747 HikariDataSource:352 - HikariPool-7 - Shutdown completed.
+[INFO ] 2020-04-30 12:01:41.852 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:01:41.853 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:01:42.038 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:01:42.048 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:01:42.169 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:01:42.170 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:01:42.170 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:01:42.171 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:01:42.181 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:01:42.182 ContextLoader:284 - Root WebApplicationContext: initialization completed in 325 ms
+[INFO ] 2020-04-30 12:01:42.230 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:01:42.235 HikariDataSource:110 - HikariPool-8 - Starting...
+[INFO ] 2020-04-30 12:01:42.256 HikariDataSource:123 - HikariPool-8 - Start completed.
+[INFO ] 2020-04-30 12:01:42.257 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:01:42.343 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:01:42.344 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:01:42.350 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:01:42.376 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:01:42.529 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e51b864, org.springframework.security.web.context.SecurityContextPersistenceFilter@33fc4aa3, org.springframework.security.web.header.HeaderWriterFilter@68612633, org.springframework.security.web.csrf.CsrfFilter@7fb077fc, org.springframework.security.web.authentication.logout.LogoutFilter@1ee50a91, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e59c482, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3315c1e6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@293da776, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6343e6f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f21412, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15bb156, org.springframework.security.web.session.SessionManagementFilter@4f0fcb29, org.springframework.security.web.access.ExceptionTranslationFilter@55c0b5ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c209dca]
+[INFO ] 2020-04-30 12:01:42.583 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:01:42.662 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:01:42.670 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:01:42.671 Application:61 - Started Application in 0.852 seconds (JVM running for 1542.808)
+[INFO ] 2020-04-30 12:01:42.673 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:02:14.087 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:02:14.089 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:02:14.090 HikariDataSource:350 - HikariPool-8 - Shutdown initiated...
+[INFO ] 2020-04-30 12:02:14.108 HikariDataSource:352 - HikariPool-8 - Shutdown completed.
+[INFO ] 2020-04-30 12:02:14.204 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:02:14.205 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:02:14.346 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:02:14.354 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:02:14.462 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:02:14.463 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:02:14.463 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:02:14.464 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:02:14.473 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:02:14.473 ContextLoader:284 - Root WebApplicationContext: initialization completed in 266 ms
+[INFO ] 2020-04-30 12:02:14.515 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:02:14.520 HikariDataSource:110 - HikariPool-9 - Starting...
+[INFO ] 2020-04-30 12:02:14.537 HikariDataSource:123 - HikariPool-9 - Start completed.
+[INFO ] 2020-04-30 12:02:14.538 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:02:14.613 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:02:14.613 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:02:14.621 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:02:14.644 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:02:14.786 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@605bcf33, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dd3ed5d, org.springframework.security.web.header.HeaderWriterFilter@1cb5866e, org.springframework.security.web.csrf.CsrfFilter@3bd09a54, org.springframework.security.web.authentication.logout.LogoutFilter@bbfa8a8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@654860ae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79aaa8be, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51d640c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dadae7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d1bc956, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@767426fc, org.springframework.security.web.session.SessionManagementFilter@26ec57e, org.springframework.security.web.access.ExceptionTranslationFilter@7caf8a26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@514ec976]
+[INFO ] 2020-04-30 12:02:14.848 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:02:14.913 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:02:14.916 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:02:14.917 Application:61 - Started Application in 0.734 seconds (JVM running for 1575.054)
+[INFO ] 2020-04-30 12:02:14.919 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:05:19.495 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:05:19.497 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:05:19.498 HikariDataSource:350 - HikariPool-9 - Shutdown initiated...
+[INFO ] 2020-04-30 12:05:19.517 HikariDataSource:352 - HikariPool-9 - Shutdown completed.
+[INFO ] 2020-04-30 12:05:19.618 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:05:19.619 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:05:19.755 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:05:19.764 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:05:19.896 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:05:19.897 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:05:19.898 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:05:19.898 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:05:19.906 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:05:19.906 ContextLoader:284 - Root WebApplicationContext: initialization completed in 286 ms
+[INFO ] 2020-04-30 12:05:19.950 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:05:19.953 HikariDataSource:110 - HikariPool-10 - Starting...
+[INFO ] 2020-04-30 12:05:19.970 HikariDataSource:123 - HikariPool-10 - Start completed.
+[INFO ] 2020-04-30 12:05:19.970 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:05:20.027 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:05:20.028 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:05:20.034 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:05:20.054 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:05:20.174 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@367849a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@40667eef, org.springframework.security.web.header.HeaderWriterFilter@4323351b, org.springframework.security.web.csrf.CsrfFilter@5e5c5d47, org.springframework.security.web.authentication.logout.LogoutFilter@3491cbbf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5343276b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2196b5a2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5facfa1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62a0946c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3871fece, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b9b1a77, org.springframework.security.web.session.SessionManagementFilter@7cecb250, org.springframework.security.web.access.ExceptionTranslationFilter@945e19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e4c1263]
+[INFO ] 2020-04-30 12:05:20.217 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:05:20.273 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:05:20.279 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:05:20.281 Application:61 - Started Application in 0.686 seconds (JVM running for 1760.418)
+[INFO ] 2020-04-30 12:05:20.283 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:07:10.778 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:07:10.779 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:07:10.780 HikariDataSource:350 - HikariPool-10 - Shutdown initiated...
+[INFO ] 2020-04-30 12:07:10.797 HikariDataSource:352 - HikariPool-10 - Shutdown completed.
+[INFO ] 2020-04-30 12:07:10.911 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:07:10.912 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:07:11.078 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:07:11.091 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 11ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:07:11.218 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:07:11.219 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:07:11.219 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:07:11.219 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:07:11.230 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:07:11.230 ContextLoader:284 - Root WebApplicationContext: initialization completed in 316 ms
+[INFO ] 2020-04-30 12:07:11.273 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:07:11.277 HikariDataSource:110 - HikariPool-11 - Starting...
+[INFO ] 2020-04-30 12:07:11.296 HikariDataSource:123 - HikariPool-11 - Start completed.
+[INFO ] 2020-04-30 12:07:11.296 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:07:11.361 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:07:11.361 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:07:11.368 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:07:11.388 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:07:11.507 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f2bf4c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ee54f1, org.springframework.security.web.header.HeaderWriterFilter@75c1e205, org.springframework.security.web.csrf.CsrfFilter@5b086cf4, org.springframework.security.web.authentication.logout.LogoutFilter@28d32c71, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@215cf8de, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4cfd5fa3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67ff2d45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42bee7b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3815e42b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@361fc5ef, org.springframework.security.web.session.SessionManagementFilter@3b99e0ba, org.springframework.security.web.access.ExceptionTranslationFilter@47c4dea9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b195500]
+[INFO ] 2020-04-30 12:07:11.560 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:07:11.629 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:07:11.631 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:07:11.632 Application:61 - Started Application in 0.746 seconds (JVM running for 1871.769)
+[INFO ] 2020-04-30 12:07:11.633 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:11:49.317 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:11:49.319 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:11:49.320 HikariDataSource:350 - HikariPool-11 - Shutdown initiated...
+[INFO ] 2020-04-30 12:11:49.338 HikariDataSource:352 - HikariPool-11 - Shutdown completed.
+[INFO ] 2020-04-30 12:11:49.440 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:11:49.441 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:11:49.563 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:11:49.571 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:11:49.668 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:11:49.669 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:11:49.670 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:11:49.670 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:11:49.680 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:11:49.680 ContextLoader:284 - Root WebApplicationContext: initialization completed in 237 ms
+[INFO ] 2020-04-30 12:11:49.712 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:11:49.715 HikariDataSource:110 - HikariPool-12 - Starting...
+[INFO ] 2020-04-30 12:11:49.729 HikariDataSource:123 - HikariPool-12 - Start completed.
+[INFO ] 2020-04-30 12:11:49.730 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:11:49.788 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:11:49.788 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:11:49.795 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:11:49.811 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:11:49.926 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b5c8886, org.springframework.security.web.context.SecurityContextPersistenceFilter@249baf57, org.springframework.security.web.header.HeaderWriterFilter@743d1864, org.springframework.security.web.csrf.CsrfFilter@45366a93, org.springframework.security.web.authentication.logout.LogoutFilter@5062c042, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21e445b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20fe3fe1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6bfcca6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1793d3db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b710775, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8e0e096, org.springframework.security.web.session.SessionManagementFilter@520f3577, org.springframework.security.web.access.ExceptionTranslationFilter@3aa1334c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bb918ca]
+[INFO ] 2020-04-30 12:11:49.976 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:11:50.031 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:11:50.035 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:11:50.036 Application:61 - Started Application in 0.618 seconds (JVM running for 2150.173)
+[INFO ] 2020-04-30 12:11:50.037 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:12:15.455 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:12:15.456 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:12:15.457 HikariDataSource:350 - HikariPool-12 - Shutdown initiated...
+[INFO ] 2020-04-30 12:12:15.481 HikariDataSource:352 - HikariPool-12 - Shutdown completed.
+[INFO ] 2020-04-30 12:12:15.587 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:12:15.588 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:12:15.700 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:12:15.706 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 6ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:12:15.805 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:12:15.806 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:12:15.807 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:12:15.808 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:12:15.815 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:12:15.815 ContextLoader:284 - Root WebApplicationContext: initialization completed in 225 ms
+[INFO ] 2020-04-30 12:12:15.857 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:12:15.861 HikariDataSource:110 - HikariPool-13 - Starting...
+[INFO ] 2020-04-30 12:12:15.879 HikariDataSource:123 - HikariPool-13 - Start completed.
+[INFO ] 2020-04-30 12:12:15.880 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:12:15.933 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:12:15.934 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:12:15.944 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:12:15.960 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:12:16.063 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ab28225, org.springframework.security.web.context.SecurityContextPersistenceFilter@323394e8, org.springframework.security.web.header.HeaderWriterFilter@7d694dae, org.springframework.security.web.csrf.CsrfFilter@73ac81a7, org.springframework.security.web.authentication.logout.LogoutFilter@5f0396d6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c018e40, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47d4be50, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@32b887ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7929ee5b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e9ad8ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d178578, org.springframework.security.web.session.SessionManagementFilter@25058856, org.springframework.security.web.access.ExceptionTranslationFilter@143bfd48, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78b0ec05]
+[INFO ] 2020-04-30 12:12:16.119 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:12:16.178 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:12:16.181 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:12:16.182 Application:61 - Started Application in 0.613 seconds (JVM running for 2176.319)
+[INFO ] 2020-04-30 12:12:16.184 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:15:20.760 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:15:20.760 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:15:20.761 HikariDataSource:350 - HikariPool-13 - Shutdown initiated...
+[INFO ] 2020-04-30 12:15:20.780 HikariDataSource:352 - HikariPool-13 - Shutdown completed.
+[INFO ] 2020-04-30 12:15:20.894 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:15:20.895 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:15:21.000 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:15:21.007 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 6ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:15:21.248 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:15:21.249 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:15:21.249 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:15:21.249 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:15:21.256 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:15:21.256 ContextLoader:284 - Root WebApplicationContext: initialization completed in 359 ms
+[INFO ] 2020-04-30 12:15:21.318 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:15:21.322 HikariDataSource:110 - HikariPool-14 - Starting...
+[INFO ] 2020-04-30 12:15:21.337 HikariDataSource:123 - HikariPool-14 - Start completed.
+[INFO ] 2020-04-30 12:15:21.338 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:15:21.404 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:15:21.404 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:15:21.414 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:15:21.447 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:15:21.630 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35c29ce5, org.springframework.security.web.context.SecurityContextPersistenceFilter@41eb5e92, org.springframework.security.web.header.HeaderWriterFilter@4956f74, org.springframework.security.web.csrf.CsrfFilter@7399b10d, org.springframework.security.web.authentication.logout.LogoutFilter@12c64d61, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e75d34, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@543ce509, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@89ddc1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@202fb18d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f6e9433, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5482a3be, org.springframework.security.web.session.SessionManagementFilter@7fc499be, org.springframework.security.web.access.ExceptionTranslationFilter@53b64260, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7498311c]
+[INFO ] 2020-04-30 12:15:21.725 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:15:21.868 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:15:21.881 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:15:21.882 Application:61 - Started Application in 1.014 seconds (JVM running for 2362.019)
+[INFO ] 2020-04-30 12:15:21.884 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:15:58.299 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:15:58.299 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:15:58.301 HikariDataSource:350 - HikariPool-14 - Shutdown initiated...
+[INFO ] 2020-04-30 12:15:58.318 HikariDataSource:352 - HikariPool-14 - Shutdown completed.
+[INFO ] 2020-04-30 12:15:58.442 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:15:58.443 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:15:58.569 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:15:58.578 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:15:58.698 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:15:58.698 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:15:58.699 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:15:58.699 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:15:58.705 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:15:58.705 ContextLoader:284 - Root WebApplicationContext: initialization completed in 260 ms
+[INFO ] 2020-04-30 12:15:58.744 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:15:58.747 HikariDataSource:110 - HikariPool-15 - Starting...
+[INFO ] 2020-04-30 12:15:58.766 HikariDataSource:123 - HikariPool-15 - Start completed.
+[INFO ] 2020-04-30 12:15:58.766 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:15:58.819 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:15:58.820 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:15:58.828 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:15:58.845 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:15:58.986 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54aecea0, org.springframework.security.web.context.SecurityContextPersistenceFilter@40e3bbbc, org.springframework.security.web.header.HeaderWriterFilter@5bfdbfb6, org.springframework.security.web.csrf.CsrfFilter@2869a40a, org.springframework.security.web.authentication.logout.LogoutFilter@267c4cef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a5e827, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@447109b1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78317600, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fc2126f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1974082e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@696b679b, org.springframework.security.web.session.SessionManagementFilter@254f02eb, org.springframework.security.web.access.ExceptionTranslationFilter@54b77f30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d619548]
+[INFO ] 2020-04-30 12:15:59.061 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:15:59.162 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:15:59.164 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:15:59.165 Application:61 - Started Application in 0.749 seconds (JVM running for 2399.302)
+[INFO ] 2020-04-30 12:15:59.166 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:16:24.588 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:16:24.589 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:16:24.589 HikariDataSource:350 - HikariPool-15 - Shutdown initiated...
+[INFO ] 2020-04-30 12:16:24.609 HikariDataSource:352 - HikariPool-15 - Shutdown completed.
+[INFO ] 2020-04-30 12:16:24.735 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:16:24.736 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:16:24.859 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:16:24.866 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:16:24.987 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:16:24.988 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:16:24.989 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:16:24.989 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:16:24.999 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:16:24.999 ContextLoader:284 - Root WebApplicationContext: initialization completed in 261 ms
+[INFO ] 2020-04-30 12:16:25.044 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:16:25.048 HikariDataSource:110 - HikariPool-16 - Starting...
+[INFO ] 2020-04-30 12:16:25.058 HikariDataSource:123 - HikariPool-16 - Start completed.
+[INFO ] 2020-04-30 12:16:25.059 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:16:25.120 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:16:25.120 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:16:25.130 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:16:25.154 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:16:25.317 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@419edf96, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ae83d5b, org.springframework.security.web.header.HeaderWriterFilter@249d5f33, org.springframework.security.web.csrf.CsrfFilter@6d5cc3ab, org.springframework.security.web.authentication.logout.LogoutFilter@600c7018, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61de2fed, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7f5aed5c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@47ead931, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@177e66ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5954d7b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b2567eb, org.springframework.security.web.session.SessionManagementFilter@3122f14f, org.springframework.security.web.access.ExceptionTranslationFilter@48537ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@289a8532]
+[INFO ] 2020-04-30 12:16:25.413 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:16:25.531 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:16:25.544 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:16:25.545 Application:61 - Started Application in 0.844 seconds (JVM running for 2425.682)
+[INFO ] 2020-04-30 12:16:25.546 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:17:20.987 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:17:20.988 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:17:20.989 HikariDataSource:350 - HikariPool-16 - Shutdown initiated...
+[INFO ] 2020-04-30 12:17:21.006 HikariDataSource:352 - HikariPool-16 - Shutdown completed.
+[INFO ] 2020-04-30 12:17:21.103 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:17:21.103 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:17:21.194 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:17:21.202 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:17:21.299 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:17:21.300 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:17:21.300 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:17:21.300 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:17:21.318 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:17:21.318 ContextLoader:284 - Root WebApplicationContext: initialization completed in 213 ms
+[INFO ] 2020-04-30 12:17:21.359 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:17:21.363 HikariDataSource:110 - HikariPool-17 - Starting...
+[INFO ] 2020-04-30 12:17:21.380 HikariDataSource:123 - HikariPool-17 - Start completed.
+[INFO ] 2020-04-30 12:17:21.381 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:17:21.428 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:17:21.428 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:17:21.442 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:17:21.461 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:17:21.599 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@585156cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fa62317, org.springframework.security.web.header.HeaderWriterFilter@6a53ab86, org.springframework.security.web.csrf.CsrfFilter@4636e11a, org.springframework.security.web.authentication.logout.LogoutFilter@323a73dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@763200ff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8306149, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2569a9dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@780980f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f710beb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@105c5c24, org.springframework.security.web.session.SessionManagementFilter@4e6935f1, org.springframework.security.web.access.ExceptionTranslationFilter@370e0cd8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bcdd9a5]
+[INFO ] 2020-04-30 12:17:21.661 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:17:21.745 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:17:21.758 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:17:21.759 Application:61 - Started Application in 0.675 seconds (JVM running for 2481.896)
+[INFO ] 2020-04-30 12:17:21.760 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:18:28.207 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:18:28.208 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:18:28.209 HikariDataSource:350 - HikariPool-17 - Shutdown initiated...
+[INFO ] 2020-04-30 12:18:28.226 HikariDataSource:352 - HikariPool-17 - Shutdown completed.
+[INFO ] 2020-04-30 12:18:28.343 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:18:28.344 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:18:28.468 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:18:28.477 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:18:28.604 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:18:28.605 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:18:28.606 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:18:28.606 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:18:28.613 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:18:28.613 ContextLoader:284 - Root WebApplicationContext: initialization completed in 267 ms
+[INFO ] 2020-04-30 12:18:28.655 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:18:28.658 HikariDataSource:110 - HikariPool-18 - Starting...
+[INFO ] 2020-04-30 12:18:28.678 HikariDataSource:123 - HikariPool-18 - Start completed.
+[INFO ] 2020-04-30 12:18:28.678 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:18:28.722 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:18:28.723 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:18:28.735 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:18:28.749 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:18:28.853 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27a4293c, org.springframework.security.web.context.SecurityContextPersistenceFilter@172bb9ee, org.springframework.security.web.header.HeaderWriterFilter@54ba98de, org.springframework.security.web.csrf.CsrfFilter@5120a0fa, org.springframework.security.web.authentication.logout.LogoutFilter@76332494, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51b47075, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4447fc12, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@31898c2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40571eaa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@402b0216, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cbaaf7d, org.springframework.security.web.session.SessionManagementFilter@43d8e61f, org.springframework.security.web.access.ExceptionTranslationFilter@209ee6bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a50fbca]
+[INFO ] 2020-04-30 12:18:28.911 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:18:28.983 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:18:28.994 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:18:28.995 Application:61 - Started Application in 0.674 seconds (JVM running for 2549.132)
+[INFO ] 2020-04-30 12:18:28.996 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:19:13.425 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:19:13.426 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:19:13.427 HikariDataSource:350 - HikariPool-18 - Shutdown initiated...
+[INFO ] 2020-04-30 12:19:13.446 HikariDataSource:352 - HikariPool-18 - Shutdown completed.
+[INFO ] 2020-04-30 12:19:13.550 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:19:13.551 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:19:13.644 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:19:13.651 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 6ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:19:13.762 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:19:13.763 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:19:13.763 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:19:13.764 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:19:13.769 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:19:13.770 ContextLoader:284 - Root WebApplicationContext: initialization completed in 218 ms
+[INFO ] 2020-04-30 12:19:13.819 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:19:13.826 HikariDataSource:110 - HikariPool-19 - Starting...
+[INFO ] 2020-04-30 12:19:13.845 HikariDataSource:123 - HikariPool-19 - Start completed.
+[INFO ] 2020-04-30 12:19:13.845 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:19:13.891 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:19:13.892 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:19:13.899 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:19:13.924 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:19:14.061 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bac94f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4367c95d, org.springframework.security.web.header.HeaderWriterFilter@4bb94d7a, org.springframework.security.web.csrf.CsrfFilter@68d0841c, org.springframework.security.web.authentication.logout.LogoutFilter@566aef3b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1dfbc0d2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5fd090ac, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@44a8de3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b4bfaa3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a98b02d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b4aa3de, org.springframework.security.web.session.SessionManagementFilter@2f7b48ca, org.springframework.security.web.access.ExceptionTranslationFilter@30fb17ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@451f484e]
+[INFO ] 2020-04-30 12:19:14.128 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:19:14.210 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:19:14.218 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:19:14.219 Application:61 - Started Application in 0.688 seconds (JVM running for 2594.356)
+[INFO ] 2020-04-30 12:19:14.221 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:22:07.989 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 12:22:07.990 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 12:22:07.996 DispatcherServlet:547 - Completed initialization in 5 ms
+[INFO ] 2020-04-30 12:22:35.815 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:22:35.816 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:22:35.817 HikariDataSource:350 - HikariPool-19 - Shutdown initiated...
+[INFO ] 2020-04-30 12:22:35.846 HikariDataSource:352 - HikariPool-19 - Shutdown completed.
+[INFO ] 2020-04-30 12:22:35.957 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:22:35.958 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:22:36.065 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:22:36.073 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:22:36.181 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:22:36.182 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:22:36.183 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:22:36.183 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:22:36.191 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:22:36.191 ContextLoader:284 - Root WebApplicationContext: initialization completed in 231 ms
+[INFO ] 2020-04-30 12:22:36.245 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:22:36.249 HikariDataSource:110 - HikariPool-20 - Starting...
+[INFO ] 2020-04-30 12:22:36.264 HikariDataSource:123 - HikariPool-20 - Start completed.
+[INFO ] 2020-04-30 12:22:36.265 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:22:36.326 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:22:36.327 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:22:36.338 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:22:36.356 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:22:36.498 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dd30be7, org.springframework.security.web.context.SecurityContextPersistenceFilter@5315dcf6, org.springframework.security.web.header.HeaderWriterFilter@79dcc361, org.springframework.security.web.csrf.CsrfFilter@a23854a, org.springframework.security.web.authentication.logout.LogoutFilter@1887e2ca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3407bef2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@693cebe9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4a8e5776, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@633de0a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ce5f065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ba22e6a, org.springframework.security.web.session.SessionManagementFilter@458a08d8, org.springframework.security.web.access.ExceptionTranslationFilter@71682e02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d979d50]
+[INFO ] 2020-04-30 12:22:36.567 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:22:36.663 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:22:36.666 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:22:36.667 Application:61 - Started Application in 0.733 seconds (JVM running for 2796.804)
+[INFO ] 2020-04-30 12:22:36.669 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 12:22:44.601 [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-30 12:22:44.601 DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-30 12:22:44.608 DispatcherServlet:547 - Completed initialization in 7 ms
+[INFO ] 2020-04-30 12:22:44.631 ExecutionTimeTrackerAdvice:20 - Method name Object pwmanager.controller.Controller.getUser(Integer) time taken to execute 10
+[WARN ] 2020-04-30 12:22:44.650 ExceptionHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: pwmanager.model.User$HibernateProxy$U9MlER0B["hibernateLazyInitializer"])]
+[INFO ] 2020-04-30 12:24:26.180 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:24:26.181 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:24:26.183 HikariDataSource:350 - HikariPool-20 - Shutdown initiated...
+[INFO ] 2020-04-30 12:24:26.199 HikariDataSource:352 - HikariPool-20 - Shutdown completed.
+[INFO ] 2020-04-30 12:24:31.726 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 12:24:31.727 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 12:24:31.815 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 12:24:31.823 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 12:24:31.932 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 12:24:31.933 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:24:31.933 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 12:24:31.933 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 12:24:31.940 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 12:24:31.941 ContextLoader:284 - Root WebApplicationContext: initialization completed in 212 ms
+[INFO ] 2020-04-30 12:24:31.981 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 12:24:31.985 HikariDataSource:110 - HikariPool-21 - Starting...
+[INFO ] 2020-04-30 12:24:31.995 HikariDataSource:123 - HikariPool-21 - Start completed.
+[INFO ] 2020-04-30 12:24:31.996 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 12:24:32.043 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 12:24:32.044 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 12:24:32.052 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 12:24:32.073 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 12:24:32.215 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43bdf24a, org.springframework.security.web.context.SecurityContextPersistenceFilter@522fcea7, org.springframework.security.web.header.HeaderWriterFilter@1552ef35, org.springframework.security.web.csrf.CsrfFilter@7729533c, org.springframework.security.web.authentication.logout.LogoutFilter@5e16eb34, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@731cf7a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2585d038, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ddce412, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e712873, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cd85fcf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ab8542e, org.springframework.security.web.session.SessionManagementFilter@6f22c0cc, org.springframework.security.web.access.ExceptionTranslationFilter@16e3563f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3020ee61]
+[INFO ] 2020-04-30 12:24:32.277 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 12:24:32.357 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 12:24:32.359 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 12:24:32.360 Application:61 - Started Application in 0.653 seconds (JVM running for 2912.497)
+[INFO ] 2020-04-30 12:24:32.361 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 14:08:02.688 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 14:08:02.689 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 14:08:02.690 HikariDataSource:350 - HikariPool-21 - Shutdown initiated...
+[INFO ] 2020-04-30 14:08:02.714 HikariDataSource:352 - HikariPool-21 - Shutdown completed.
+[INFO ] 2020-04-30 14:08:02.842 Application:55 - Starting Application on zyles with PID 9179 (/home/zyles/Documents/GithubProjects/krypto.pwmanager/target/classes started by zyles in /home/zyles/Documents/GithubProjects/krypto.pwmanager)
+[INFO ] 2020-04-30 14:08:02.843 Application:651 - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-30 14:08:02.972 RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-04-30 14:08:02.979 RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 6ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-04-30 14:08:03.073 TomcatWebServer:92 - Tomcat initialized with port(s): 8085 (http)
+[INFO ] 2020-04-30 14:08:03.073 Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 14:08:03.074 StandardService:173 - Starting service [Tomcat]
+[INFO ] 2020-04-30 14:08:03.074 StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-30 14:08:03.080 [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-30 14:08:03.080 ContextLoader:284 - Root WebApplicationContext: initialization completed in 235 ms
+[INFO ] 2020-04-30 14:08:03.111 LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-04-30 14:08:03.114 HikariDataSource:110 - HikariPool-22 - Starting...
+[INFO ] 2020-04-30 14:08:03.125 HikariDataSource:123 - HikariPool-22 - Start completed.
+[INFO ] 2020-04-30 14:08:03.125 Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2020-04-30 14:08:03.161 JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-04-30 14:08:03.162 LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 14:08:03.172 OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+[WARN ] 2020-04-30 14:08:03.185 JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-04-30 14:08:03.284 DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1bd7f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@90327d5, org.springframework.security.web.header.HeaderWriterFilter@69f36a8f, org.springframework.security.web.csrf.CsrfFilter@57441f8b, org.springframework.security.web.authentication.logout.LogoutFilter@1adc3c6f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ac77fa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@213860d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@f1dd2f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@682c18dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a79b045, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@636e79cb, org.springframework.security.web.session.SessionManagementFilter@7eccc7c0, org.springframework.security.web.access.ExceptionTranslationFilter@4c2048, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bf4fd69]
+[INFO ] 2020-04-30 14:08:03.368 ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 14:08:03.431 Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 2020-04-30 14:08:03.439 TomcatWebServer:204 - Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 2020-04-30 14:08:03.440 Application:61 - Started Application in 0.622 seconds (JVM running for 4469.595)
+[INFO ] 2020-04-30 14:08:03.442 ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+[INFO ] 2020-04-30 14:08:03.481 ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-30 14:08:03.482 LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-04-30 14:08:03.483 HikariDataSource:350 - HikariPool-22 - Shutdown initiated...
+[INFO ] 2020-04-30 14:08:03.501 HikariDataSource:352 - HikariPool-22 - Shutdown completed.
